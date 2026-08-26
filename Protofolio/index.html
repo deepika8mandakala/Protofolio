@@ -38,7 +38,7 @@ body {
   background: var(--black);
   color: var(--text);
   font-family: var(--font-body);
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.7;
   overflow-x: hidden;
   cursor: none;
@@ -82,7 +82,7 @@ nav {
 }
 .nav-logo {
   font-family: var(--font-mono);
-  font-size: 0.85rem;
+  font-size: 0.88rem;
   color: var(--cyan);
   letter-spacing: 0.15em;
   text-decoration: none;
@@ -95,7 +95,7 @@ nav {
 }
 .nav-links a {
   font-family: var(--font-mono);
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   letter-spacing: 0.1em;
   color: var(--muted2);
   text-decoration: none;
@@ -118,7 +118,7 @@ nav {
 section { padding: 7rem 4rem; max-width: 1200px; margin: 0 auto; }
 .section-label {
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 0.76rem;
   letter-spacing: 0.25em;
   color: var(--cyan);
   text-transform: uppercase;
@@ -135,7 +135,7 @@ section { padding: 7rem 4rem; max-width: 1200px; margin: 0 auto; }
 }
 h2.section-title {
   font-family: var(--font-display);
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(2.1rem, 4vw, 3.1rem);
   font-weight: 700;
   color: var(--text);
   line-height: 1.1;
@@ -154,18 +154,15 @@ h2.section-title {
   max-width: 100%;
 }
 
-/* CANVAS BG */
 #neural-canvas {
   position: absolute;
   inset: 0;
   opacity: 0.35;
 }
 
-/* hero-inner now defined with portrait grid below */
-
 .hero-eyebrow {
   font-family: var(--font-mono);
-  font-size: 0.8rem;
+  font-size: 0.84rem;
   letter-spacing: 0.3em;
   color: var(--cyan);
   margin-bottom: 1.5rem;
@@ -183,7 +180,7 @@ h2.section-title {
 
 .hero-name {
   font-family: var(--font-display);
-  font-size: clamp(2.8rem, 6.5vw, 6.5rem);
+  font-size: clamp(2.9rem, 6.5vw, 6.5rem);
   font-weight: 800;
   line-height: 1.08;
   margin-bottom: 1.8rem;
@@ -205,7 +202,6 @@ h2.section-title {
   padding-bottom: 0.05em;
 }
 
-/* HERO TWO-COLUMN */
 .hero-inner {
   position: relative;
   z-index: 2;
@@ -261,7 +257,6 @@ h2.section-title {
   display: block;
   filter: saturate(1.05) contrast(1.03);
 }
-/* Anime overlay effects */
 .portrait-scanlines {
   position: absolute;
   inset: 0;
@@ -304,11 +299,10 @@ h2.section-title {
   z-index: 0;
   animation: ringPulse 3s ease-in-out 1s infinite;
 }
-/* data particles floating around portrait */
 .portrait-particle {
   position: absolute;
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.63rem;
   color: var(--cyan);
   opacity: 0;
   animation: floatParticle 6s ease-in-out infinite;
@@ -370,7 +364,7 @@ h2.section-title {
 }
 .hero-title-pill {
   font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: 0.79rem;
   letter-spacing: 0.12em;
   padding: 0.35rem 1rem;
   border: 1px solid var(--border2);
@@ -380,7 +374,7 @@ h2.section-title {
 }
 
 .hero-statement {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   color: var(--muted2);
   max-width: 580px;
   line-height: 1.65;
@@ -400,7 +394,7 @@ h2.section-title {
 }
 .btn-primary {
   font-family: var(--font-mono);
-  font-size: 0.8rem;
+  font-size: 0.84rem;
   letter-spacing: 0.12em;
   padding: 0.85rem 2rem;
   background: var(--cyan);
@@ -419,7 +413,7 @@ h2.section-title {
 }
 .btn-ghost {
   font-family: var(--font-mono);
-  font-size: 0.8rem;
+  font-size: 0.84rem;
   letter-spacing: 0.12em;
   padding: 0.85rem 2rem;
   background: transparent;
@@ -461,7 +455,7 @@ h2.section-title {
 }
 .metric-label {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.68rem;
   letter-spacing: 0.15em;
   color: var(--muted);
   text-transform: uppercase;
@@ -488,7 +482,7 @@ h2.section-title {
 }
 .scroll-text {
   font-family: var(--font-mono);
-  font-size: 0.6rem;
+  font-size: 0.63rem;
   letter-spacing: 0.25em;
   color: var(--muted);
   writing-mode: vertical-lr;
@@ -503,10 +497,9 @@ h2.section-title {
   gap: 6rem;
   align-items: start;
 }
-.about-left {}
 .about-bio {
   color: var(--muted2);
-  font-size: 1.05rem;
+  font-size: 1.08rem;
   line-height: 1.85;
   margin-bottom: 2rem;
   font-weight: 300;
@@ -537,14 +530,14 @@ h2.section-title {
 .t-green { background: #28ca41; }
 .terminal-title {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.68rem;
   color: var(--muted);
   margin-left: auto;
   letter-spacing: 0.1em;
 }
 .terminal-line {
   font-family: var(--font-mono);
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   line-height: 1.9;
   color: var(--muted2);
 }
@@ -553,7 +546,6 @@ h2.section-title {
 .t-val { color: var(--green); }
 .t-comment { color: #4a5568; }
 
-.about-right {}
 .highlight-cards {
   display: flex;
   flex-direction: column;
@@ -581,7 +573,7 @@ h2.section-title {
 .highlight-card:hover { border-color: var(--cyan); transform: translateX(4px); }
 .hc-org {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.72rem;
   letter-spacing: 0.15em;
   color: var(--cyan);
   text-transform: uppercase;
@@ -589,19 +581,19 @@ h2.section-title {
 }
 .hc-role {
   font-family: var(--font-display);
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   font-weight: 600;
   color: var(--text);
   margin-bottom: 0.3rem;
 }
 .hc-date {
   font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-size: 0.73rem;
   color: var(--muted);
   margin-bottom: 0.8rem;
 }
 .hc-desc {
-  font-size: 0.9rem;
+  font-size: 0.94rem;
   color: var(--muted2);
   line-height: 1.65;
   font-weight: 300;
@@ -649,7 +641,7 @@ h2.section-title {
 }
 .sc-title {
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   letter-spacing: 0.18em;
   color: var(--cyan);
   text-transform: uppercase;
@@ -665,13 +657,13 @@ h2.section-title {
   margin-bottom: 0.4rem;
 }
 .skill-name {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: var(--muted2);
   font-weight: 400;
 }
 .skill-pct {
   font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-size: 0.73rem;
   color: var(--muted);
 }
 .skill-bar {
@@ -688,7 +680,6 @@ h2.section-title {
   transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* skill tags for tools */
 .skill-tags {
   display: flex;
   flex-wrap: wrap;
@@ -697,7 +688,7 @@ h2.section-title {
 }
 .skill-tag {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.72rem;
   letter-spacing: 0.08em;
   padding: 0.3rem 0.75rem;
   border: 1px solid var(--border);
@@ -744,10 +735,9 @@ h2.section-title {
   pointer-events: none;
 }
 
-.project-left {}
 .project-tag {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.68rem;
   letter-spacing: 0.2em;
   color: var(--violet);
   text-transform: uppercase;
@@ -755,14 +745,14 @@ h2.section-title {
 }
 .project-title {
   font-family: var(--font-display);
-  font-size: 1.9rem;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--text);
   margin-bottom: 1rem;
   line-height: 1.1;
 }
 .project-desc {
-  font-size: 0.92rem;
+  font-size: 0.97rem;
   color: var(--muted2);
   line-height: 1.75;
   margin-bottom: 1.5rem;
@@ -777,7 +767,7 @@ h2.section-title {
 }
 .pf-step {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.71rem;
   padding: 0.25rem 0.7rem;
   background: var(--surface2);
   border: 1px solid var(--border);
@@ -798,7 +788,7 @@ h2.section-title {
 }
 .tech-badge {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.71rem;
   padding: 0.25rem 0.65rem;
   background: var(--violet-dim);
   border: 1px solid rgba(167,139,250,0.2);
@@ -809,10 +799,11 @@ h2.section-title {
 .project-links {
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 .proj-link {
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   letter-spacing: 0.1em;
   color: var(--cyan);
   text-decoration: none;
@@ -824,6 +815,11 @@ h2.section-title {
   gap: 0.4rem;
 }
 .proj-link:hover { border-color: var(--cyan); }
+.proj-link-live {
+  color: var(--green);
+  border-bottom-color: rgba(52,211,153,0.25);
+}
+.proj-link-live:hover { border-color: var(--green); }
 
 .project-right {
   display: flex;
@@ -838,14 +834,14 @@ h2.section-title {
 }
 .insight-label {
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.65rem;
   letter-spacing: 0.18em;
   color: var(--muted);
   text-transform: uppercase;
   margin-bottom: 0.5rem;
 }
 .insight-val {
-  font-size: 0.88rem;
+  font-size: 0.93rem;
   color: var(--muted2);
   line-height: 1.65;
   font-weight: 300;
@@ -892,7 +888,7 @@ h2.section-title {
 }
 .rc-tag {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.68rem;
   letter-spacing: 0.2em;
   color: var(--violet);
   text-transform: uppercase;
@@ -900,14 +896,14 @@ h2.section-title {
 }
 .rc-title {
   font-family: var(--font-display);
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: var(--text);
   margin-bottom: 0.75rem;
   line-height: 1.25;
 }
 .rc-desc {
-  font-size: 0.88rem;
+  font-size: 0.93rem;
   color: var(--muted2);
   line-height: 1.7;
   font-weight: 300;
@@ -920,7 +916,7 @@ h2.section-title {
 }
 .rc-pill {
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.65rem;
   padding: 0.2rem 0.6rem;
   background: var(--green-dim);
   border: 1px solid rgba(52,211,153,0.15);
@@ -967,25 +963,25 @@ h2.section-title {
 }
 .exp-date {
   font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-size: 0.73rem;
   color: var(--cyan);
   letter-spacing: 0.1em;
 }
 .exp-company {
   font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-size: 0.73rem;
   color: var(--muted);
   letter-spacing: 0.08em;
 }
 .exp-role {
   font-family: var(--font-display);
-  font-size: 1.35rem;
+  font-size: 1.4rem;
   font-weight: 700;
   color: var(--text);
   margin-bottom: 0.5rem;
 }
 .exp-context {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: var(--violet);
   font-style: italic;
   margin-bottom: 1rem;
@@ -998,7 +994,7 @@ h2.section-title {
   gap: 0.65rem;
 }
 .exp-bullets li {
-  font-size: 0.92rem;
+  font-size: 0.97rem;
   color: var(--muted2);
   padding-left: 1.2rem;
   position: relative;
@@ -1048,14 +1044,14 @@ h2.section-title {
 }
 .ach-title {
   font-family: var(--font-display);
-  font-size: 1.05rem;
+  font-size: 1.08rem;
   font-weight: 600;
   color: var(--text);
   margin-bottom: 0.4rem;
   line-height: 1.25;
 }
 .ach-desc {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   color: var(--muted2);
   line-height: 1.6;
   font-weight: 300;
@@ -1065,7 +1061,7 @@ h2.section-title {
 #contact { border-top: 1px solid var(--border); text-align: center; padding: 8rem 4rem; }
 .contact-tagline {
   font-family: var(--font-display);
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: clamp(2.1rem, 5vw, 4rem);
   font-weight: 800;
   line-height: 1.05;
   margin-bottom: 1.5rem;
@@ -1079,7 +1075,7 @@ h2.section-title {
   background-clip: text;
 }
 .contact-sub {
-  font-size: 1rem;
+  font-size: 1.05rem;
   color: var(--muted2);
   margin-bottom: 3rem;
   font-weight: 300;
@@ -1093,7 +1089,7 @@ h2.section-title {
 }
 .contact-link {
   font-family: var(--font-mono);
-  font-size: 0.78rem;
+  font-size: 0.82rem;
   letter-spacing: 0.12em;
   color: var(--muted2);
   text-decoration: none;
@@ -1118,7 +1114,7 @@ footer {
 }
 .footer-text {
   font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-size: 0.73rem;
   color: var(--muted);
   letter-spacing: 0.1em;
 }
@@ -1150,7 +1146,6 @@ footer {
   color: var(--cyan);
 }
 
-/* REVEAL ANIMATIONS */
 .reveal {
   opacity: 0;
   transform: translateY(30px);
@@ -1202,7 +1197,6 @@ footer {
   <canvas id="neural-canvas"></canvas>
 
   <div class="hero-inner">
-    <!-- LEFT: Text -->
     <div class="hero-text">
       <div class="hero-eyebrow">AI_RESEARCHER // ML_ENGINEER // DATA_SCIENTIST</div>
       <h1 class="hero-name">
@@ -1216,7 +1210,7 @@ footer {
         <span class="hero-title-pill">Research Intern @ IIIT-H</span>
       </div>
       <p class="hero-statement">
-        I build systems where <strong>research meets production</strong> — from SimCLR implementations on ImageNet-scale data to LLM-RAG evaluation pipelines. Currently doing <strong>Research ML at IIIT Hyderabad</strong>.
+        I build systems where <strong>research meets production</strong> — from SimCLR on histopathology datasets at IIIT Hyderabad to LLM-RAG evaluation pipelines for climate science. Currently doing <strong>Research ML at IIIT Hyderabad SPCRC</strong>.
       </p>
       <div class="hero-cta">
         <a href="#projects" class="btn-primary">View My Work</a>
@@ -1224,7 +1218,6 @@ footer {
       </div>
     </div>
 
-    <!-- RIGHT: Anime Portrait -->
     <div class="hero-portrait">
       <div class="portrait-frame">
         <img src="profile.png?q=80&w=800&auto=format&fit=crop" alt="Portrait of Mandakala Sai Deepika" class="portrait-img">
@@ -1246,7 +1239,7 @@ footer {
       <div class="metric-label">CGPA / 10</div>
     </div>
     <div class="metric-item">
-      <div class="metric-number">5+</div>
+      <div class="metric-number">10+</div>
       <div class="metric-label">Papers Reviewed</div>
     </div>
     <div class="metric-item">
@@ -1269,10 +1262,10 @@ footer {
   <div class="about-grid">
     <div class="about-left reveal">
       <p class="about-bio">
-        I'm a second-year AI & DS undergraduate who doesn't just study machine learning — I <em>implement</em> it at research scale. From running <strong>SimCLR</strong> on CIFAR-10 and ImageNet datasets at IIIT Hyderabad, to building LLM-RAG evaluation pipelines for climate science at a Cambridge-affiliated initiative, I operate at the intersection of research depth and engineering practicality.
+        I'm a third-year AI &amp; DS undergraduate who doesn't just study machine learning — I <em>implement</em> it at research scale. From running <strong>SimCLR</strong> on histopathology datasets at IIIT Hyderabad's SPCRC, to building LLM-RAG evaluation pipelines for climate science at a Cambridge-affiliated initiative, I operate at the intersection of research depth and engineering practicality.
       </p>
       <p class="about-bio">
-        I'm drawn to problems where <strong>data alone isn't enough</strong> — where the model architecture, training paradigm, and evaluation methodology all matter. My current focus is self-supervised and semi-supervised learning for <strong>medical imaging</strong>, and the systematic evaluation of retrieval-augmented generation systems.
+        I'm drawn to problems where <strong>data alone isn't enough</strong> — where model architecture, training paradigm, and evaluation methodology all matter. My current focus is self-supervised and contrastive learning for <strong>label-efficient cancer detection</strong>, and the systematic evaluation of retrieval-augmented generation systems.
       </p>
 
       <div class="terminal-block">
@@ -1285,8 +1278,8 @@ footer {
         <div class="terminal-line">
           <span class="t-prompt">$ </span><span class="t-cmd">cat</span> <span class="t-val">current_status.txt</span>
         </div>
-        <div class="terminal-line t-comment"># Research ML Intern @ IIIT-H</div>
-        <div class="terminal-line t-comment"># SimCLR | Medical Imaging | LLMs</div>
+        <div class="terminal-line t-comment"># Research ML Intern @ IIIT-H SPCRC</div>
+        <div class="terminal-line t-comment"># SimCLR | Histopathology | Cancer Detection</div>
         <div class="terminal-line"><span class="t-prompt">$ </span><span class="t-cmd">echo</span> <span class="t-val">"Always curious. Always building."</span><span class="blink">_</span></div>
       </div>
     </div>
@@ -1294,22 +1287,22 @@ footer {
     <div class="about-right reveal">
       <div class="highlight-cards">
         <div class="highlight-card">
-          <div class="hc-org">IIIT Hyderabad</div>
+          <div class="hc-org">IIIT Hyderabad · SPCRC</div>
           <div class="hc-role">Research ML Intern</div>
           <div class="hc-date">Jan 2026 – Present</div>
-          <div class="hc-desc">Implementing SimCLR self-supervised learning on CIFAR-10 and ImageNet-scale datasets. Reviewing state-of-the-art papers in medical imaging and deep learning. Evaluating model performance across supervised vs. self-supervised paradigms.</div>
+          <div class="hc-desc">Implementing SimCLR self-supervised contrastive learning on CIFAR-10 and histopathology datasets for label-efficient cancer detection. Benchmarking supervised vs. self-supervised settings, reviewing 10+ peer-reviewed papers in medical imaging and self-supervised learning.</div>
         </div>
         <div class="highlight-card" style="border-left-color: var(--violet);">
           <div class="hc-org" style="color: var(--violet);">Semantic Climate · IASc–INSA–NASI Fellowship</div>
           <div class="hc-role">Data Science Intern</div>
           <div class="hc-date">May – Aug 2025 · NIPGR & University of Cambridge</div>
-          <div class="hc-desc">Processed 50+ IPCC research papers. Evaluated LLM-RAG pipelines and debugged open-source tools for semantic climate data processing. Collaborated with mentors from Cambridge — including Dr. Peter Murray-Rust — on IPCC AR6 WG1 Chapter 4 analysis.</div>
+          <div class="hc-desc">Processed 50+ IPCC research papers via OpenAlex API. Evaluated LLM-RAG pipelines on IPCC AR6 WG1 Chapter 4 via Streamlit UI. Debugged amilib, pygetpapers, llmrag. Authored FAQ documentation for FSCI 2025. Mentored by Dr. Peter Murray-Rust (Cambridge) and Dr. Gitanjali Yadav (NIPGR).</div>
         </div>
         <div class="highlight-card" style="border-left-color: var(--green);">
           <div class="hc-org" style="color: var(--green);">Vignan's Institute of IT</div>
           <div class="hc-role">B.Tech — AI & Data Science</div>
           <div class="hc-date">2023 – 2027 · CGPA: 9.22/10</div>
-          <div class="hc-desc">Top-tier academic performance while simultaneously securing competitive research fellowships and internships. IEEE WIE Vice Chair. IWD Hackathon 2nd Runner-Up.</div>
+          <div class="hc-desc">Top-tier academic performance while securing competitive research fellowships and internships. IEEE WIE Vice Chair. IWD Hackathon 2nd Runner-Up.</div>
         </div>
       </div>
     </div>
@@ -1368,7 +1361,7 @@ footer {
           <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
         </div>
         <div class="skill-item">
-          <div class="skill-top"><span class="skill-name">XGBoost</span><span class="skill-pct">82%</span></div>
+          <div class="skill-top"><span class="skill-name">HuggingFace / XGBoost</span><span class="skill-pct">82%</span></div>
           <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
         </div>
       </div>
@@ -1378,7 +1371,7 @@ footer {
           <div class="sc-icon">🔧</div>
           <span class="sc-title">MLOps & Tools</span>
         </div>
-        <p style="font-size:0.85rem; color:var(--muted2); margin-bottom:1.2rem; font-weight:300;">Infrastructure & experiment tracking</p>
+        <p style="font-size:0.9rem; color:var(--muted2); margin-bottom:1.2rem; font-weight:300;">Infrastructure & experiment tracking</p>
         <div class="skill-tags">
           <span class="skill-tag">Python</span>
           <span class="skill-tag">SQL</span>
@@ -1392,6 +1385,15 @@ footer {
           <span class="skill-tag">Pygetpapers</span>
           <span class="skill-tag">amilib</span>
           <span class="skill-tag">llmrag</span>
+          <span class="skill-tag">Airflow</span>
+          <span class="skill-tag">CI/CD</span>
+          <span class="skill-tag">AWS</span>
+          <span class="skill-tag">S3 · EC2 · SageMaker</span>
+          <span class="skill-tag">MongoDB</span>
+          <span class="skill-tag">REST APIs</span>
+          <span class="skill-tag">WebSockets</span>
+          <span class="skill-tag">Elasticsearch</span>
+          <span class="skill-tag">Kibana</span>
         </div>
       </div>
     </div>
@@ -1405,71 +1407,114 @@ footer {
 
   <div class="projects-list">
 
-    <!-- Project 1: SmartFoot -->
+    <!-- Project 1: VeritasAI -->
     <div class="project-card reveal" data-index="01">
+      <div class="project-left">
+        <div class="project-tag">NLI · RAG · REAL-TIME MONITORING</div>
+        <div class="project-title">VeritasAI</div>
+        <p class="project-desc">Evidence-grounded claim verification platform for real-time social monitoring. Classifies claims as Supported, Contradicted, or Insufficient with DeBERTa-v3-base, BGE embeddings, and FAISS retrieval, then exposes the pipeline through FastAPI and Streamlit/Gradio interfaces.</p>
+        <div class="project-flow">
+          <span class="pf-step">Mastodon Claims</span><span class="pf-arrow">→</span>
+          <span class="pf-step">BGE + FAISS</span><span class="pf-arrow">→</span>
+          <span class="pf-step">DeBERTa NLI</span><span class="pf-arrow">→</span>
+          <span class="pf-step">Evidence Verdict</span>
+        </div>
+        <div class="project-tech">
+          <span class="tech-badge">DeBERTa-v3-base</span><span class="tech-badge">BGE Embeddings</span>
+          <span class="tech-badge">FAISS</span><span class="tech-badge">FastAPI</span>
+          <span class="tech-badge">SQLAlchemy</span><span class="tech-badge">Gradio</span>
+        </div>
+        <div class="project-links">
+          <a href="https://huggingface.co/spaces/deepika-mandakala/Veritas_AI" class="proj-link proj-link-live" target="_blank">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            Live Demo
+          </a>
+          <a href="https://github.com/deepika8mandakala/AI_Fact_tool_VeritasAI" class="proj-link" target="_blank">↗ GitHub</a>
+        </div>
+      </div>
+      <div class="project-right">
+        <div class="insight-box"><div class="insight-label">Problem</div><div class="insight-val">Fast-moving social feeds make it difficult to separate a claim from the evidence needed to verify it. Binary labels also hide uncertainty when retrieved context is incomplete.</div></div>
+        <div class="insight-box"><div class="insight-label">Approach</div><div class="insight-val">Combines <strong>449 evidence vectors</strong> with DeBERTa-v3-base NLI classification and a 0.60 confidence threshold. Mastodon REST/WebSocket ingestion, SQLAlchemy persistence, and 9 FastAPI endpoints support real-time workflows.</div></div>
+        <div class="insight-box"><div class="insight-label">Research Angle</div><div class="insight-val">Treats claim verification as an evidence-grounded decision system: retrieval quality, entailment confidence, and an explicit Insufficient outcome remain visible to the user.</div></div>
+      </div>
+    </div>
+
+    <!-- Project 2: SmartFoot -->
+    <div class="project-card reveal" data-index="02">
       <div class="project-left">
         <div class="project-tag">GEOSPATIAL · SAFETY · ML</div>
         <div class="project-title">SmartFoot</div>
-        <p class="project-desc">AI-powered walkability and safety analysis system using machine learning to evaluate pedestrian environments, integrated with real-time geospatial data for actionable urban insights.</p>
+        <p class="project-desc">AI-powered pedestrian safety routing system that scores walking routes (0–100) across 8 safety factors using Random Forest trained on 25+ OSM features. Integrates 4 geospatial APIs for route planning, circular walks, and GPS navigation with 3 route options. Migrated to Leaflet for cost-free, scalable deployment.</p>
         <div class="project-flow">
-          <span class="pf-step">Raw Location Data</span>
+          <span class="pf-step">OSM + GPS Data</span>
           <span class="pf-arrow">→</span>
-          <span class="pf-step">Feature Engineering</span>
+          <span class="pf-step">25+ Features</span>
           <span class="pf-arrow">→</span>
-          <span class="pf-step">XGBoost Model</span>
+          <span class="pf-step">RandomForest</span>
           <span class="pf-arrow">→</span>
-          <span class="pf-step">Safety Score</span>
+          <span class="pf-step">Safety Score 0–100</span>
         </div>
         <div class="project-tech">
-          <span class="tech-badge">XGBoost</span>
-          <span class="tech-badge">Google Maps API</span>
+          <span class="tech-badge">RandomForest</span>
+          <span class="tech-badge">OSM / Leaflet</span>
+          <span class="tech-badge">4 Geospatial APIs</span>
           <span class="tech-badge">Python</span>
-          <span class="tech-badge">Web App</span>
+          <span class="tech-badge">Flask</span>
         </div>
         <div class="project-links">
-          <a href="https://github.com/deepika8mandakala/SmartFoot" class="proj-link">↗ GitHub</a>
+          <a href="https://smart-foot-version2.vercel.app/" class="proj-link proj-link-live" target="_blank">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            Live Demo
+          </a>
+          <a href="https://github.com/deepika8mandakala/SmartFoot_Version2" class="proj-link" target="_blank">↗ GitHub</a>
         </div>
       </div>
       <div class="project-right">
         <div class="insight-box">
           <div class="insight-label">Problem</div>
-          <div class="insight-val">Urban pedestrian safety is unmeasured and subjective. No tool provides ML-driven, real-time walkability scores at scale.</div>
+          <div class="insight-val">Urban pedestrian safety is unmeasured and subjective. No tool provides ML-driven, real-time walkability scores at scale using open geospatial data.</div>
         </div>
         <div class="insight-box">
           <div class="insight-label">Approach</div>
-          <div class="insight-val">Built a gradient-boosted model (XGBoost) trained on walkability features. Integrated Google Maps API to provide <strong>live context-aware safety analysis</strong>.</div>
+          <div class="insight-val">Built a Random Forest model trained on 25+ OSM features, scoring routes across 8 safety dimensions. Integrated 4 geospatial APIs for <strong>live route planning with ±10% duration accuracy</strong>. Leaflet migration cut deployment cost to zero.</div>
         </div>
         <div class="insight-box">
           <div class="insight-label">Research Angle</div>
-          <div class="insight-val">Applies geospatial ML to social infrastructure. Explores how structured tree models outperform deep learning on tabular spatial data.</div>
+          <div class="insight-val">Demonstrates that structured tree models outperform deep learning on tabular spatial data. Geospatial ML applied to social infrastructure at city scale.</div>
         </div>
       </div>
     </div>
 
-    <!-- Project 2: BrainSM -->
-    <div class="project-card reveal" data-index="02">
+    <!-- Project 3: BrainSM -->
+    <div class="project-card reveal" data-index="03">
       <div class="project-left">
-        <div class="project-tag">NLP · BEHAVIORAL AI · COGNITIVE PATTERNS</div>
+        <div class="project-tag">NLP · BEHAVIORAL AI · DEVOPS</div>
         <div class="project-title">BrainSM</div>
-        <p class="project-desc">NLP-driven behavioral pattern analysis from social media data — studying cognitive patterns and building ETL pipelines to structure and process large-scale social data for behavioral modeling.</p>
+        <p class="project-desc">NLP-based social media behavior analysis platform with full ETL pipeline: ingest → sentiment analysis (HuggingFace) → PostgreSQL storage → Kibana dashboards. Includes daily graph generation, behavioral alert system via SMTP email, and containerized deployment with Docker Compose.</p>
         <div class="project-flow">
           <span class="pf-step">Social Media Data</span>
           <span class="pf-arrow">→</span>
-          <span class="pf-step">ETL Pipeline</span>
+          <span class="pf-step">HuggingFace NLP</span>
           <span class="pf-arrow">→</span>
-          <span class="pf-step">NLP Analysis</span>
+          <span class="pf-step">PostgreSQL + Kibana</span>
           <span class="pf-arrow">→</span>
-          <span class="pf-step">Behavior Model</span>
+          <span class="pf-step">Alerts</span>
         </div>
         <div class="project-tech">
           <span class="tech-badge">Python</span>
-          <span class="tech-badge">NLP / TextBlob</span>
-          <span class="tech-badge">greSQL</span>
-          <span class="tech-badge">ElasticSearch</span>
-          <span class="tech-badge">Pandas</span>
+          <span class="tech-badge">HuggingFace</span>
+          <span class="tech-badge">PostgreSQL</span>
+          <span class="tech-badge">Elasticsearch</span>
+          <span class="tech-badge">Kibana</span>
+          <span class="tech-badge">Docker Compose</span>
+          <span class="tech-badge">SMTP</span>
         </div>
         <div class="project-links">
-          <a href="https://github.com/deepika8mandakala/Brain_SM" class="proj-link">↗ GitHub</a>
+          <a href="https://brainsm-vikram-vasishts-projects.vercel.app/" class="proj-link proj-link-live" target="_blank">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+            Live Demo
+          </a>
+          <a href="https://github.com/deepika8mandakala/Brain_SM" class="proj-link" target="_blank">↗ GitHub</a>
         </div>
       </div>
       <div class="project-right">
@@ -1479,52 +1524,11 @@ footer {
         </div>
         <div class="insight-box">
           <div class="insight-label">Approach</div>
-          <div class="insight-val">Built full ETL pipeline: ingest → process → store in PostgreSQL/ElasticSearch. Applied NLP sentiment and behavioral pattern extraction with <strong>scalable data architecture</strong>.</div>
+          <div class="insight-val">Full ETL pipeline: ingest → HuggingFace sentiment analysis → PostgreSQL + Elasticsearch storage → Kibana dashboards. <strong>Docker Compose containerization</strong> makes the stack fully reproducible. SMTP alerts fire on behavioral anomaly thresholds.</div>
         </div>
         <div class="insight-box">
           <div class="insight-label">Research Angle</div>
-          <div class="insight-val">Bridges computational linguistics with cognitive behavioral modeling — a direction aligned with recent neurosymbolic AI research.</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Project 3: Swasthya-AI -->
-    <div class="project-card reveal" data-index="03">
-      <div class="project-left">
-        <div class="project-tag">HEALTH AI · RECOMMENDATION SYSTEMS</div>
-        <div class="project-title">Swasthya-AI</div>
-        <p class="project-desc">AI-driven personalized health recommendation platform generating dietary and wellness insights through machine learning — making evidence-based health guidance accessible and personalized.</p>
-        <div class="project-flow">
-          <span class="pf-step">User Health Data</span>
-          <span class="pf-arrow">→</span>
-          <span class="pf-step">ML Models</span>
-          <span class="pf-arrow">→</span>
-          <span class="pf-step">Insight Engine</span>
-          <span class="pf-arrow">→</span>
-          <span class="pf-step">Personalized Plan</span>
-        </div>
-        <div class="project-tech">
-          <span class="tech-badge">Python</span>
-          <span class="tech-badge">Machine Learning</span>
-          <span class="tech-badge">Random Forest</span>
-          <span class="tech-badge">Flask</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/deepika8mandakala/Swasthya_health_lens" class="proj-link">↗ GitHub</a>
-        </div>
-      </div>
-      <div class="project-right">
-        <div class="insight-box">
-          <div class="insight-label">Problem</div>
-          <div class="insight-val">Healthcare recommendations remain generic. Personalized, ML-driven dietary guidance is inaccessible to most people outside clinical settings.</div>
-        </div>
-        <div class="insight-box">
-          <div class="insight-label">Approach</div>
-          <div class="insight-val">Designed a <strong>AI Health Analysis Engine</strong> that processes user health profiles to generate tailored dietary insights using supervised ML models.</div>
-        </div>
-        <div class="insight-box">
-          <div class="insight-label">Research Angle</div>
-          <div class="insight-val">Explores personalization at the intersection of health informatics and ML — a high-impact direction in clinical AI.</div>
+          <div class="insight-val">Bridges computational linguistics with cognitive behavioral modeling. MLOps-grade infrastructure (Docker, Kibana, Elasticsearch) applied to social-science research — a direction aligned with neurosymbolic AI.</div>
         </div>
       </div>
     </div>
@@ -1542,39 +1546,40 @@ footer {
       <div class="research-card reveal">
         <div class="rc-number">01</div>
         <div class="rc-tag">Self-Supervised Learning</div>
-        <div class="rc-title">SimCLR on ImageNet-Scale Data</div>
-        <div class="rc-desc">Implementing Google Research's SimCLR framework from scratch — evaluating contrastive learning performance on CIFAR-10 and ImageNet-scale datasets. Comparing supervised vs. self-supervised learning benchmarks across model configurations.</div>
+        <div class="rc-title">SimCLR for Histopathology Cancer Detection</div>
+        <div class="rc-desc">Implementing Google Research's SimCLR contrastive learning framework on CIFAR-10 and ImageNet-scale histopathology datasets for label-efficient cancer detection. Benchmarking supervised vs. self-supervised settings under Dr. Sai Kiran Bulusu at IIIT Hyderabad SPCRC.</div>
         <div class="rc-pills">
           <span class="rc-pill">SimCLR</span>
           <span class="rc-pill">Contrastive Learning</span>
+          <span class="rc-pill">Medical Imaging</span>
           <span class="rc-pill">TensorFlow</span>
-          <span class="rc-pill">CIFAR-10</span>
         </div>
       </div>
 
       <div class="research-card reveal">
         <div class="rc-number">02</div>
-        <div class="rc-tag">Medical Imaging</div>
-        <div class="rc-title">Deep Learning in Medical Diagnostics</div>
-        <div class="rc-desc">Reviewed 5+ state-of-the-art research papers on deep learning applications in medical imaging. Studying how self-supervised and semi-supervised approaches reduce the annotation bottleneck in clinical ML — a critical barrier to production medical AI.</div>
+        <div class="rc-tag">Vision Models · Literature</div>
+        <div class="rc-title">Vision Mamba for Visual Representation Learning</div>
+        <div class="rc-desc">Exploring Vision Mamba (ViM) for visual representation learning alongside a review of 10+ peer-reviewed papers in medical imaging and self-supervised learning. Focusing on architectures that can learn useful representations with fewer labelled clinical examples.</div>
         <div class="rc-pills">
-          <span class="rc-pill">CNNs</span>
-          <span class="rc-pill">Medical AI</span>
+          <span class="rc-pill">Vision Mamba</span>
+          <span class="rc-pill">Representation Learning</span>
           <span class="rc-pill">Literature Review</span>
-          <span class="rc-pill">SSL</span>
+          <span class="rc-pill">Medical Imaging</span>
         </div>
       </div>
 
       <div class="research-card reveal">
         <div class="rc-number">03</div>
         <div class="rc-tag">LLMs & Retrieval</div>
-        <div class="rc-title">LLM-RAG Evaluation for Climate Science</div>
-        <div class="rc-desc">Evaluated LLM-RAG retrieval pipelines on 50+ IPCC research papers using structured queries. Debugged tools (amilib, pygetpapers, llmrag) to improve scientific information retrieval quality. Applied findings to IPCC AR6 WG1 Chapter 4 semantic analysis.</div>
+        <div class="rc-title">LLM-RAG Evaluation for IPCC Climate Science</div>
+        <div class="rc-desc">Evaluated LLM-RAG retrieval pipelines with 5+ query types on 50+ IPCC AR6 papers via Streamlit UI. Debugged open-source toolchain (amilib, pygetpapers, llmrag). Built WG1/Ch4 keyword wordlist and domain dictionary for semantic climate data. Authored FSCI 2025 FAQ documentation.</div>
         <div class="rc-pills">
           <span class="rc-pill">RAG</span>
           <span class="rc-pill">LLMs</span>
-          <span class="rc-pill">IPCC Data</span>
-          <span class="rc-pill">Cambridge Collaboration</span>
+          <span class="rc-pill">IPCC AR6</span>
+          <span class="rc-pill">OpenAlex API</span>
+          <span class="rc-pill">Cambridge</span>
         </div>
       </div>
     </div>
@@ -1591,14 +1596,14 @@ footer {
       <div class="exp-dot"></div>
       <div class="exp-meta">
         <span class="exp-date">JAN 2026 – PRESENT</span>
-        <span class="exp-company">IIIT HYDERABAD</span>
+        <span class="exp-company">IIIT HYDERABAD · SPCRC</span>
       </div>
       <div class="exp-role">Research Machine Learning Intern</div>
-      <div class="exp-context">International Institute of Information Technology, Hyderabad — Top research institution in India</div>
+      <div class="exp-context">Under Dr. Sai Kiran Bulusu — Signal Processing & Communications Research Centre, IIIT Hyderabad</div>
       <ul class="exp-bullets">
-        <li>Implemented <strong>SimCLR</strong> using the official Google Research codebase on CIFAR-10 and ImageNet-scale datasets — hands-on with large-scale self-supervised training</li>
-        <li>Evaluated model performance systematically across <strong>supervised vs. self-supervised learning</strong> configurations, producing structured comparison results</li>
-        <li>Reviewed <strong>5+ research papers</strong> in medical imaging and deep learning; synthesizing findings to guide experimental direction</li>
+        <li>Implemented <strong>SimCLR</strong> using the official Google Research codebase on CIFAR-10 and ImageNet-scale <strong>histopathology datasets</strong> for label-efficient cancer detection</li>
+        <li>Benchmarked model performance across <strong>supervised vs. self-supervised learning</strong> configurations, producing structured comparison results</li>
+        <li>Reviewed <strong>10+ peer-reviewed papers</strong> in medical imaging and self-supervised learning; synthesizing findings to guide experimental direction</li>
         <li>Working under direct research mentorship — translating academic methods into functional, reproducible experiments</li>
       </ul>
     </div>
@@ -1612,10 +1617,10 @@ footer {
       <div class="exp-role">Data Science Intern — IASc–INSA–NASI Fellowship</div>
       <div class="exp-context">Mentors: Dr. Gitanjali Yadav (NIPGR) & Dr. Peter Murray-Rust (University of Cambridge)</div>
       <ul class="exp-bullets">
-        <li>Processed <strong>50+ IPCC research papers</strong> using Pygetpapers for structured extraction and semantic annotation</li>
-        <li>Evaluated <strong>LLM-RAG pipelines</strong> with 5+ query types to benchmark information retrieval quality on climate science corpora</li>
+        <li>Retrieved and processed <strong>50+ IPCC research papers</strong> using Pygetpapers with OpenAlex API for structured extraction and semantic annotation</li>
+        <li>Evaluated <strong>LLM-RAG pipelines</strong> with 5+ query types on IPCC AR6 WG1 Chapter 4 via Streamlit UI, reporting retrieval issues to mentors</li>
         <li>Debugged open-source tools (amilib, pygetpapers, llmrag) — improving pipeline stability and data processing accuracy</li>
-        <li>Developed <strong>IPCC AR6 WG1 Chapter 4</strong> wordlist and dictionary to support semantic climate data processing</li>
+        <li>Built <strong>WG1/Ch4 keyword wordlist and domain dictionary</strong> for semantic climate data processing; authored FAQ documentation for FSCI 2025</li>
         <li>Earned a <strong>Letter of Recommendation from Dr. Peter Murray-Rust</strong>, University of Cambridge</li>
       </ul>
     </div>
@@ -1640,7 +1645,7 @@ footer {
         <div class="ach-icon">📜</div>
         <div>
           <div class="ach-title">Letter of Recommendation — University of Cambridge</div>
-          <div class="ach-desc">Received a personal LOR from Dr. Peter Murray-Rust, pioneering chemoinformatics researcher at the University of Cambridge, recognising research contributions to open science and semantic climate data.</div>
+          <div class="ach-desc">Received a personal LOR from Dr. Peter Murray-Rust, pioneering chemoinformatics researcher at the University of Cambridge, recognising contributions to open science and semantic climate data processing.</div>
         </div>
       </div>
       <div class="ach-card reveal">
@@ -1692,7 +1697,7 @@ footer {
 
 <!-- FOOTER -->
 <footer>
-  <span class="footer-text">© 2025 MANDAKALA SAI DEEPIKA</span>
+  <span class="footer-text">© 2026 MANDAKALA SAI DEEPIKA</span>
   <span class="footer-text" style="color:var(--muted);">Visakhapatnam, India</span>
 </footer>
 
@@ -1794,7 +1799,6 @@ const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('visible');
-      // Animate skill bars
       entry.target.querySelectorAll('.skill-fill').forEach(bar => {
         bar.style.width = bar.dataset.width + '%';
       });
@@ -1804,7 +1808,6 @@ const observer = new IntersectionObserver(entries => {
 
 reveals.forEach(el => observer.observe(el));
 
-// Also trigger skill bars on first section-visible
 document.querySelectorAll('.skill-fill').forEach(bar => {
   const parentReveal = bar.closest('.reveal');
   if (!parentReveal) bar.style.width = bar.dataset.width + '%';
